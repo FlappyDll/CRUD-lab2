@@ -58,44 +58,40 @@
 
 #### 6. HTTP запрос/ответ
 **Запрос**  
-Request URL: http://localhost/index.php
-Request Method: POST
+Request URL: http://localhost/
+Request Method: GET
 Status Code: 200 OK
 Remote Address: [::1]:80
 Referrer Policy: strict-origin-when-cross-origin
+Connection: Keep-Alive
+Content-Length: 5559
+Content-Type: text/html; charset=UTF-8
+Date: Sat, 24 Dec 2022 13:39:40 GMT
+Keep-Alive: timeout=5, max=98
+Server: Apache/2.4.54 (Win64) OpenSSL/1.1.1o PHP/7.4.30
+X-Powered-By: PHP/7.4.30
 Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
 Accept-Encoding: gzip, deflate, br
-Accept-Language: ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7
-Cache-Control: no-cache
+Accept-Language: ru,en;q=0.9
+Cache-Control: max-age=0
 Connection: keep-alive
-Content-Length: 150
-Content-Type: application/x-www-form-urlencoded
-Cookie: text=dimbrus%20skazal%20axyet%0D%0A; PHPSESSID=tjdf9k1fm7b06s0mjcf2m74log
-DNT: 1
 Host: localhost
-Origin: http://localhost
-Pragma: no-cache
-Referer: http://localhost/index.php
-sec-ch-ua: "Google Chrome";v="107", "Chromium";v="107", "Not=A?Brand";v="24"
+sec-ch-ua: "Chromium";v="106", "Yandex";v="22", "Not;A=Brand";v="99"
 sec-ch-ua-mobile: ?0
-sec-ch-ua-platform: "Linux"
+sec-ch-ua-platform: "Windows"
 Sec-Fetch-Dest: document
 Sec-Fetch-Mode: navigate
-Sec-Fetch-Site: same-origin
+Sec-Fetch-Site: none
 Sec-Fetch-User: ?1
 Upgrade-Insecure-Requests: 1
-User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36
 
 **Ответ**
 Connection: Keep-Alive
-Content-Encoding: gzip
-Content-Length: 1352
+Content-Length: 6271
 Content-Type: text/html; charset=UTF-8
-Date: Fri, 23 Dec 2022 23:35:55 GMT
-Keep-Alive: timeout=5, max=100
-Server: Apache/2.4.52 (Ubuntu)
-Vary: Accept-Encoding
-#### 7. Значимые фрагменты кода
+Date: Sat, 24 Dec 2022 13:42:26 GMT
+Keep-Alive: timeout=5, max=99
+Server: Apache/2.4.54 (Win64) OpenSSL/1.1.1o PHP/7.4.30
 **Добавление комментариев(comment.php)**
 ```
 include_once("template/settings.php");
