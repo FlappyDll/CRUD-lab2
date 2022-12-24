@@ -58,7 +58,7 @@
 
 #### 6. HTTP запрос/ответ
 **Запрос**  
-Request URL: http://localhost/php_forum/index.php
+Request URL: http://localhost/index.php
 Request Method: POST
 Status Code: 200 OK
 Remote Address: [::1]:80
@@ -75,7 +75,7 @@ DNT: 1
 Host: localhost
 Origin: http://localhost
 Pragma: no-cache
-Referer: http://localhost/crud/index.php
+Referer: http://localhost/index.php
 sec-ch-ua: "Google Chrome";v="107", "Chromium";v="107", "Not=A?Brand";v="24"
 sec-ch-ua-mobile: ?0
 sec-ch-ua-platform: "Linux"
